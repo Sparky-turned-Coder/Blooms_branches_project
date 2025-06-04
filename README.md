@@ -1,5 +1,10 @@
-This is a side project to create a website for my wife's business. It will be ongoing, adding things here and there as I learn them.
+# Wife's Business Site
 
-Beginning on, 06/04/2025.
+A simple website I'm building for my wife's business as a side project while learning web development.
 
-Thanks! :)
+## Tech Stack
+- HTML
+- CSS
+
+## Author
+Chris Jones
