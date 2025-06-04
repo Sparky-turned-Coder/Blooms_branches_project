@@ -18,3 +18,38 @@ h1 {
 html {
     background-color: bisque;
 }
+
+.navbar {
+    background-color: blanchedalmond;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(112, 112, 112);
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+ul {
+    text-decoration: none;
+}
+
+.show,.abt,.cntct {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    color: #033d11;
+    text-shadow: 2px 4px 4px rgb(112, 112, 112);
+}
+
+.submit {
+    background-color: #0f5679;
+    color: whitesmoke;
+    box-shadow: 2px 2px 10px rgb(112, 112, 112);
+}
+
+label {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: #033d11;
+    text-shadow: 2px 4px 4px rgb(112, 112, 112);
+}

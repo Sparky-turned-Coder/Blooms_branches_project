@@ -9,11 +9,33 @@
 <body>
     <h1>Blooms and Branches</h1>
     <nav class="navbar">
-        <ul>
-            <li><a href="#contact">Contact Me</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#showcase">Showcase</a></li>
-        </ul>
+        <a href="#contact">Contact Us  |  </a><a href="#about">About Us  |  </a><a href="#showcase">Showcase</a>
     </nav>
+    <section id="showcase">
+        <h2 class="show">Showcase</h2>
+        <p>Explore our latest floral designs and arrangements.</p>
+        <div class="gallery">
+            <img src="flower1.jpg" alt="Old table painted yellow">
+            <img src="flower2.jpg" alt="dog painting on a pillow">
+            <img src="flower3.jpg" alt="vintage chair with floral upholstery">
+        </div>
+    </section>
+    <section id="about">
+        <h2 class="abt">About Us</h2>
+        <p>We are passionate about antique furniture that others might have presumed past their prime. We love to paint pictures, objects, and other good stuff.</p>
+    </section>
+    <section id="contact">
+        <h2 class="cntct">Contact Us</h2>
+        <p>If you have any questions or would like to inquire about one of our pieces listed here or in store, please reach out!</p>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="submit">Send Message</button>
+        </form>
+    </section>
 </body>
 </html>
